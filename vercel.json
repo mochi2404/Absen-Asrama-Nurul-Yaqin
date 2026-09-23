@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/backend.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/dashboard", "destination": "/index.html" },
+    { "source": "/absensi", "destination": "/index.html" },
+    { "source": "/siswa", "destination": "/index.html" },
+    { "source": "/guru", "destination": "/index.html" },
+    { "source": "/kelas", "destination": "/index.html" },
+    { "source": "/rekap", "destination": "/index.html" },
+    { "source": "/profil", "destination": "/index.html" },
+    { "source": "/pengaturan", "destination": "/index.html" }
+  ]
+}
